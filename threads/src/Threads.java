@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class Threads {
     public static void main(String[] args) throws InterruptedException {
         ArrayList<Integer> numbers = new ArrayList<>();
         ArrayList<ArrayList<Integer>> parts = new ArrayList<>();
