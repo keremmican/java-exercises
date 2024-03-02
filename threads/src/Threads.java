@@ -33,7 +33,7 @@ public class Threads {
         t3.join();
         t4.join();
 
-        System.out.println("ODDS: " + Counter.odds);
-        System.out.println("EVENS: " + Counter.evens);
+        System.out.println("ODDS: " + Counter.odds.stream().sorted().toList());
+        System.out.println("EVENS: " + Counter.evens.stream().sorted().toList());
     }
 }
